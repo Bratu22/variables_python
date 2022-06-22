@@ -28,6 +28,23 @@ E) Exponente/Potencia
   se ha realizado la operación
   ej: La suma entre 4.2 y 6.5 es 10.7
 '''
-
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese un numero:')
+numero_1 = int(input())
+
+print('Ingrese otro numero:')
+numero_2 = int(input())
+
+suma = numero_1 + numero_2
+print('La suma de los dos numeros es:', suma)
+
+resta = numero_1 - numero_2
+print('La resta entre estos dos numeros es;', resta)
+
+multiplicacion = numero_1 * numero_2
+print('La multiplicacion de estos dos numeros es:', multiplicacion)
+
+exponente = numero_1 ** numero_2
+print('El resultado del exponente de los dos numeros', exponente)

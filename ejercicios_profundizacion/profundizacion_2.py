@@ -19,7 +19,7 @@ Realice un programa que consulte por consola:
 - El nombre completo de la persona
 - El DNI de la persona
 - La edad de la persona
-- La altura de la persona
+- La altura de la persona'
 
 Finalmente el programa debe imprimir dos líneas de texto por separado
 - En una línea imprimir el nombre completo y el DNI, aclarando de que
@@ -33,3 +33,25 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese su nombre:')
+Apellido = str(input())
+
+print('Ingrese su apellido')
+Nombre = str(input())
+
+nomobrecompleto = Nombre + ' ' + Apellido
+
+dni = str(input('ingrese el numero de dni:'))
+
+edad = int(input('Ingrese su edad:'))
+
+Altura = float(input('Ingrese su altura:'))
+
+print('Nombre Completo:', nomobrecompleto, 'DNI:', dni)
+
+print('Nombre Completo:', nomobrecompleto,'Edad:', edad,'Altura:', Altura)
+
+
+
+
